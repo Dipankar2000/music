@@ -1,0 +1,40 @@
+.mega_box {
+    position: absolute;
+    top: 65px;
+
+    width: 1000px;
+    left: 0;
+}
+
+.mega_box .content {
+    background: #242526;
+    padding: 25px 20px;
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+
+}
+
+.megaRow{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+}
+
+.rows header{
+color: rgb(158, 158, 220);
+font-size: 2rem;
+}
+
+.megalinks li a{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+/* 10:58 theke abar dekha shuru korte hobe kal */
+
+/* link - https://www.youtube.com/watch?v=EJdtHQqGW6E  */

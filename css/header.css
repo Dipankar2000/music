@@ -1,0 +1,135 @@
+.header {
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    /* background-color: rgb(16, 14, 14); */
+    /* box-shadow: 0 5px 15px rgb(ff, ff, rgb(145, 144, 144)) */
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.header a {
+    width: 55px;
+    height: 55px;
+    
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: aliceblue;
+    margin: 0px 60px 0 40px;color: aliceblue;
+    height: 65px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+}
+
+.header > h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.leftNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    width: 100%;
+    /* border: 3px solid white;
+    border-radius: 20px; */
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation style*/
+.navbar {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0px 20px 0px 15px;
+    position: relative;
+    align-items: center;
+}
+
+.navbar li a {            /*Eta Lekha gulor jonne */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgb(205, 89, 7);
+
+}
+
+.navbar li a.active::after,
+.navbar li a:hover::after {
+
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: rgb(205, 89, 7);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.cartLogo {
+    width: 40px;
+}
+
+
+
+
+
+
+/* For search button*/
+.rightnav {
+    width: 45%;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+}
+
+#search {
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: 17px;
+    border: 2px solid rgb(132, 132, 132);
+    border-radius: 25px;
+}
+
+/* navigation background pic and blending*/
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/images/gabriel-barletta--lWcaUVJ39Y-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* .searchButton{
+    padding: 5px 5px;
+} */
+
+.buttonImg {
+    height: 28px;
+}

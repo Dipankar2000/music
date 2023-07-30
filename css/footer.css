@@ -1,0 +1,173 @@
+/* Div Above Footer Part  */
+
+/* Customer Services */
+
+.services {
+    height: 150px;
+    background-color: rgba(161, 161, 161, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+  
+}
+
+h5 {
+    margin-top: 2px;
+}
+
+.delivery {
+    /* background-color: rgb(144, 144, 144); */
+    height: auto;
+    width: 307.2px;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.delivery1 {
+    height: 50px;
+}
+
+.trust {
+    /* background-color: rgb(144, 144, 144); */
+    height: auto;
+    width: 307.2px;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.trust1 {
+    height: 50px;
+}
+
+.protect {
+    /* background-color: rgb(144, 144, 144); */
+    height: auto;
+    width: 307.2px;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.protect1 {
+    height: 50px;
+}
+
+.custcare {
+    /* background-color: rgb(144, 144, 144); */
+    height: auto;
+    width: 307.2px;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.custcare1 {
+    height: 50px;
+}
+
+/* Footer part */
+
+.footer {
+    height: auto;
+    background-color: rgba(118, 118, 118, 0.83);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+  
+}
+
+.aligns{
+    /* background-color: aqua; */
+    height: 250px;
+    width: 20%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about .nameLogo .logo2 {
+    height: 60px;
+    padding: 0 20px;
+}
+
+.nameLogo{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.prodlist{
+text-align: left;
+list-style-type: circle;
+padding-left: 18px;
+}
+
+.footImg{
+    padding-bottom: 20px;
+}
+
+.products > h3{
+    margin-bottom: 20px;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    padding-right: 110px;
+    margin-bottom: 20px;
+}
+
+.address .locateLogo{
+    height: 25px;
+    padding: 0 20px;
+    
+}
+
+.callMe{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    padding-right: 140px;
+}
+
+.callMe .callMeLogo{
+    height: 25px;
+    padding: 0 20px;
+    
+}
